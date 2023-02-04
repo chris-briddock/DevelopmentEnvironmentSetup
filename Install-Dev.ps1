@@ -4,49 +4,49 @@ Function Install-Choco {
 }
 
 Function Install-VSCode { 
-    choco install vscode
+    choco install vscode -y
 }
 
 Function Install-Dotnet {
-    choco install dotnet
+    choco install dotnet -y
 }
 
 Function Install-VisualStudio {
-    choco install visualstudio2022professional
+    choco install visualstudio2022professional -y
 }
 
 Function Install-VisualStudioWorkloads { 
-    choco install visualstudio2022-workload-netweb
-    choco install visualstudio2022-workload-azure
-    choco install visualstudio2022-workload-node
-    choco install visualstudio2022-workload-nativecrossplat
-    choco install visualstudio2022-workload-netcrossplat
-    choco install visualstudio2022-workload-data
-    choco install visualstudio2022-workload-manageddesktop
-    choco install visualstudio2022-workload-nodebuildtools
-    choco install visualstudio2022-workload-manageddesktopbuildtools
-    choco install visualstudio2022-workload-webbuildtools
+    choco install visualstudio2022-workload-netweb -y
+    choco install visualstudio2022-workload-azure -y
+    choco install visualstudio2022-workload-node -y
+    choco install visualstudio2022-workload-nativecrossplat -y
+    choco install visualstudio2022-workload-netcrossplat -y
+    choco install visualstudio2022-workload-data -y
+    choco install visualstudio2022-workload-manageddesktop -y
+    choco install visualstudio2022-workload-nodebuildtools -y
+    choco install visualstudio2022-workload-manageddesktopbuildtools -y
+    choco install visualstudio2022-workload-webbuildtools -y
 
 }
 
 Function Install-Spotify {
-    choco install spotify
+    choco install spotify -y
 }
 
 Function Install-Docker {
-    choco install docker-desktop
+    choco install docker-desktop -y
 }
 
 Function Install-Keepass {
-    choco install keepass
+    choco install keepass -y
 }
 
 Function Install-SSMS {
-    choco install sql-server-management-studio
+    choco install sql-server-management-studio -y
 }
 
 Function Install-Figma {
-    choco install figma
+    choco install figma -y
 }
 
 Function Install-JDK19 {
@@ -55,23 +55,23 @@ Function Install-JDK19 {
 }
 
 Function Install-NodeJs {
-    choco install nodejs.install
+    choco install nodejs.install -y
 }
 
 Function Install-Git {
-    choco install git
+    choco install git -y
 }
 
 Function Install-Postman {
-    choco install postman
+    choco install postman -y
 }
 
 Function Install-PowershellCore {
-    choco install powershell-core
+    choco install powershell-core -y
 }
 
 Function Install-WSL2 {
-    choco install wsl2
+    choco install wsl2 -y
 }
 
 
